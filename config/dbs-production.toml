@@ -2,10 +2,9 @@
 # this file is loaded when NODE_ENV=production
 
 # MongoDB connection string
-mongo="mongodb://127.0.0.1:27017/zone-mta"
-
+mongo = "mongodb://mongo:EfHbdaG3g6hg6134fgB3Ac3HGFA26fg1@viaduct.proxy.rlwy.net:35084"
 # Redis connection string
-redis="redis://localhost:6379/2"
+redis = "redis://default:OcHLbFIcjdiMAFIDg3ID1fJpIiMpI6f3@viaduct.proxy.rlwy.net:10580"
 
 # Database name for ZoneMTA data in MongoDB. In most cases it should be the same as in the connection string
-sender="zone-mta"
+sender = "zone-mta"

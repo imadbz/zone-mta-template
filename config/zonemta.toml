@@ -1,9 +1,9 @@
 # This is the main config file
 
-name="ZoneMTA"
+name = "ColdSire"
 
 # Process identifier
-ident="zone-mta"
+ident = "coldsire"
 
 # Run as the following user. Only use this if the application starts up as root
 #user="zonemta"
@@ -15,7 +15,7 @@ ident="zone-mta"
 
 [dbs]
 # MongoDB and Redis connection options
-# @include "dbs-{env}.toml"
+# @include "dbs-production.toml"
 
 [queue]
 # @include "queue.toml"
@@ -24,7 +24,7 @@ ident="zone-mta"
 # @include "dns.toml"
 
 [api]
-port=12080
+port = 12080
 
 [smtpInterfaces]
 # @include "interfaces/*.toml"
